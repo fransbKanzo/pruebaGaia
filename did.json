@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:fransbKanzo:pruebaGaia:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:fransbKanzo:pruebaGaia:main#1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "pEWr_8IOAt_RERIF4P3iXVRyphBhAvWM7j-G9Ay6jDGK3HXMlDGW78A2Pq7Ru49rMUjeX82KZvm8pn43lIzrd6MEIiwemdFFx8cKlXlJcWtN0pDCvsGmryiILAzM2bX4FT6kVkI_M9mBZJBRJFPxqeNFx1CZww5zQQW6GIaYPOwXJFwWk36NkEXJGO7XlvcWhPXNaGftMTGE1z9-u7UJcKrNqRx1DDKIRjbZZjKqDV7JTK5JjtGKnXkaJpP48RHBfShfXXnRwUejlyykfSn3mpzsS3pTmCqMszSfgdy0q6GpVOlFQ483LunxePp4e4ILxJAyJD2XmfDNRewbBfT2bw",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/fransbKanzo/pruebaGaia/main/certs/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:fransbKanzo:pruebaGaia:main#1"
+  ]
+}
